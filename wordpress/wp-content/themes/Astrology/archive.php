@@ -14,7 +14,7 @@
 						  <?php printf( __( 'Yearly Archives: <span>%s</span>' ), get_the_date('Y') ); ?>
 						<?php elseif ( is_post_type_archive('horoscope') ) : /* if the yearly archive is loaded */	
 							echo '<span>Horoscope</span> Archives'; ?>
-						<?php elseif ( is_tax('horoskopy') ) : /* if the yearly archive is loaded */
+						<?php elseif ( is_tax('horoscope_category') ) : /* if the yearly archive is loaded */
 							global $wp_query;
 						    $term = $wp_query->get_queried_object();
 						    $title = $term->name;

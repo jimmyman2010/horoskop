@@ -137,7 +137,7 @@ function my_post_type_horoscope () {
 	)
 					) 
 				);
-	register_taxonomy('horoskopy', 'horoscope', array('hierarchical' => true, 'label' => 'Zverokruh', 'singular_name' => 'Category', "rewrite" => true, "query_var" => true));
+	register_taxonomy('horoscope_category', 'horoscope', array('hierarchical' => true, 'label' => 'Zverokruh', 'singular_name' => 'Category', "rewrite" => true, "query_var" => true));
 }
 
 add_action('init', 'my_post_type_horoscope');

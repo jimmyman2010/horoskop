@@ -395,7 +395,7 @@ add_filter( 'upload_size_limit', 'my_upload_size_limit' );
 /**********/
 /*add_action( 'pre_get_posts', 'be_exclude_category_from_blog' );
 function be_exclude_category_from_blog( $query ) {
-    if( ($query->is_archive('horoscope') && !is_admin() && is_post_type_archive('horoscope')) ||  is_tax('horoskopy') )  {
+    if( ($query->is_archive('horoscope') && !is_admin() && is_post_type_archive('horoscope')) ||  is_tax('horoscope_category') )  {
         $query->set( 'showposts', '10' );
     }                    
 }*/

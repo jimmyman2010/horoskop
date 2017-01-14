@@ -24,18 +24,18 @@ get_header(); ?>
 
 				// The Loop
 				if ( $query->have_posts() ) { 
-					$taxonomyObject[] = get_term_by( 'name', 'vodnar' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'baran' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'rak' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'kozorozec' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'blizenci' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'lev' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'vahy' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'ryby' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'strelec' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'skorpion' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'byk' ,'horoskopy');
-					$taxonomyObject[] = get_term_by( 'name', 'panna' ,'horoskopy');
+					$taxonomyObject[] = get_term_by( 'name', 'vodnar' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'baran' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'rak' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'kozorozec' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'blizenci' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'lev' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'vahy' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'ryby' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'strelec' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'skorpion' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'byk' ,'horoscope_category');
+					$taxonomyObject[] = get_term_by( 'name', 'panna' ,'horoscope_category');
 
 
 					while ( $query->have_posts() ) {
