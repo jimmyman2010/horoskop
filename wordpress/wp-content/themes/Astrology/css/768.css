@@ -1,0 +1,181 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+
+/*  ************************* GENERAL *********************/
+	html, body { min-width: 768px; }		
+
+	#main h1 {
+	  font-size: 35px;
+	}
+
+		#main h1 span {
+		  font-size: 29px;
+		  line-height: 34px;
+		}
+
+	#main h2 {
+		font-size: 22px;
+		line-height: 24px;
+		margin-bottom: 20px;		
+	}
+	#main .sidebar h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+
+/*  *********************** HEADER ***************************/
+	
+	#header .span7 { padding-top: 30px; }
+
+	#topnav > li > a { padding: 0 12px; }
+
+	.logo {
+	  padding-bottom: 0;
+	  padding-top: 16px;
+	}
+		#logo { width: 220px; }	
+
+
+	#sliderWrap .metaslider .caption-wrap, #sliderWrap .flex-control-nav {
+		margin-left: -360px;
+	}
+		/* #sliderWrap, #sliderWrap .metaslider .slides img { height: 460px; } */
+
+		#sliderWrap .metaslider .caption-wrap { width: 380px !important; }
+
+		#main #sliderWrap .metaslider .caption-wrap h3 {
+		  font: bold 39px/46px "Ubuntu",sans-serif;
+		  margin-bottom: 0;
+		}
+
+		#main #sliderWrap .metaslider .caption-wrap h4 { font-size: 28px; line-height: 32px; }
+
+		#main #sliderWrap .metaslider .caption-wrap a.btn, #main #bannerArea a.read {
+			line-height: 35px;
+		}
+
+		#sliderWrap .flex-direction-nav {
+		  bottom: 35px;
+		  margin-left: -30px;
+		}
+
+
+	.list_carousel { width: 724px; }
+		.list_carousel li { width: 352px; }
+
+	#carouselArea .container { padding: 35px 0 15px; }
+
+		
+	.testimonials div.testi_item, .testimonials {
+		width: 476px !important;
+	} 
+
+	#main #bannerArea h1 span {
+	  display: block;
+	}
+
+	#bannerArea { padding: 55px 0 17px; }
+
+	#primaryWrapContent .span4 img.alignleft {
+	  margin: 0 0 10px 0 !important;
+	  float: none;
+	}
+	
+	#primaryWrapContent .recent-posts.recent_offers li { margin-bottom: 25px; }
+		#primaryWrapContent .recent-posts.recent_offers li .excerpt {
+		  display: block;
+		}
+
+	#footerBottom div[id*="nav_menu"] {
+	  float: none;
+	  margin: 30px auto 5px;
+	  text-align: center;
+	}	
+
+	#footerBottom div[id*="social_networks"] {
+	  float: none;
+	  margin-bottom: 0;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  margin-top: 20px;
+	}
+
+	#footerBottom div[id*="social_networks"] ul.social-networks {
+	  float: none;
+	  width: 100%;
+	}
+		#footerBottom div[id*="social_networks"] ul.social-networks li {
+			float: none;
+			display: inline-block;			
+		}
+
+	#footerBottom #searchform { margin: 6px 0 0; }	
+
+
+/*  ****************************** SUBPAGE CONTENT ************************/
+
+	.single #primaryWrapContent .featured-thumbnail img,
+	.archive #primaryWrapContent .featured-thumbnail img,
+	.blog #primaryWrapContent .featured-thumbnail img,
+	.page-template-page-blog-php #primaryWrapContent .featured-thumbnail img,
+	.search #primaryWrapContent .featured-thumbnail img {
+	  width: auto;
+	}	
+	.single #primaryWrapContent .featured-thumbnail img {
+		max-width: 100%;
+	}
+	
+	.testimonial .featured-thumbnail img { width: auto !important; }
+
+	#sidebar #searchform input[type="text"] { width: 77%; }
+
+	.post-meta, .post-meta a, .post-meta time, .wrapMeta b a { font-size: 13px; }	
+
+	.teamInner {  margin-left: -10px; } 
+		.teamBox {
+		  margin-left: 10px;
+		}
+
+/*  ************************* blog pages style ******************/
+
+	#commentform textarea { width: 410px; }
+		
+
+	.blog #content article.post-holder .post-content {
+	  padding-left: 270px;
+	}
+	
+	.wrap_cf .wpcf7-form input[type="text"],
+	.wrap_cf .wpcf7-form input[type="email"],
+	.wrap_cf .wpcf7-form input[type="number"],
+	.wrap_cf .wpcf7-form textarea {
+	  width: 93.5%;
+	}
+
+	.sidebar #searchform input[type="text"] { width: 76%; }
+
+	.wrap_cf .leftPart, .wrap_cf .rightPart {
+	  float: none;
+	  width: 100%;
+	}
+
+	.search-no-results .no-results #searchform input[type="text"] {
+	  width: 92%;
+	}
+
+	
+
+/*  ****************************** FOOTER ********************************/
+
+
+
+	
+/*  **** END OF FILE ****/
+}
+
+

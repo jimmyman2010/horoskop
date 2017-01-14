@@ -1,0 +1,55 @@
+
+@mixin break($point) {
+  @if $point == large-special {
+    @media (min-width: 1528px) { @content; }
+  }
+  @if $point == large-special-second {
+    @media (min-width: 1638px) { @content; }
+  }
+  @else if $point == x-large {
+    @media (min-width: 1370px) { @content; }
+  }
+  @else if $point == large {
+    @media  only screen and (min-width: 1200px) { @content; }
+  }
+  @else if $point == above-mobile {
+    @media  only screen and (min-width: 768px) { @content; }
+  }  
+  @else if $point == desktop {
+    @media  only screen and (max-width: 1200px) { @content; }
+  }  
+  @else if $point == medium {
+    @media only screen  and (max-width: 992px) { @content; }
+  }
+  @else if $point == small {
+    @media  only screen and (max-width: 767px)  { @content; }
+  }
+  @else if $point == x-small {
+    @media  only screen and (max-width: 480px)  { @content; }
+  }
+}
+
+/* Colors */
+$red: #f00;
+$black: #000;
+$white: #fff;
+$grey: #f6f6f6;
+$none: none;
+
+$color_Shark: #222326;
+$color_Mine_Shaft: #3d3d3d;
+$color_Blue_Zodiac: #12214a;
+$color_Firefly: #0C152E;
+$color_Astronaut: #2F477A;
+$color_Dove_Gray: #747474;
+$color_Picton_Blue: #30A3E6;
+$color_Mine_Shaft: #3b3b3b;
+$color_Mercury: #e3e3e3;
+$color_Very_Red: #aa1010;
+$color_Link: #a40606;
+
+
+/* Fonts */
+$opensans: 'Open Sans', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$roboto: 'Roboto', sans-serif;

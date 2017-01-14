@@ -1,0 +1,43 @@
+@charset utf-8;
+/*--
+	Theme Name: astrology
+	Description: A theme for Wordpress 3.7+ from flashsite-templates.com Collection
+	Author: flashsite-templates.com 
+	Author URL: http://www.flashsite-templates.com 
+--*/
+
+
+/*  ***************************************************** GENERAL ********************************************/
+
+	
+	@font-face {
+	    font-family: 'FontAwesome';
+	    src: url('fonts/fontawesome.eot');
+	    src: url('fonts/fontawesome.eot') format('embedded-opentype'),
+	         url('fonts/fontawesome.woff2') format('woff2'),
+	         url('fonts/fontawesome.woff') format('woff'),
+	         url('fonts/fontawesome.ttf') format('truetype'),
+	         url('fonts/fontawesome.svg#FontAwesome') format('svg');
+	}
+
+	@import url(http://fonts.googleapis.com/css?family='Quantico', sans-serif:400,700);
+
+
+
+
+/*  **************************************************/
+
+	@media screen and (min-width: 1600px) {
+		
+		#photoBanner .bg {
+		  	width: 100% !important;
+		  	top: -250px;
+	  	}
+	}  
+
+		
+	@media only screen and (min-width: 1200px) {
+		#navArea ul li > a {
+		    padding: 0 23px !important;
+		}
+	}

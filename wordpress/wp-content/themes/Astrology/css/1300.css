@@ -1,0 +1,123 @@
+/* Note: Design for a width above 1281px */
+
+
+@media only screen and (min-width: 1200px) {
+
+
+
+	/*  ************************* GENERAL *********************/
+		html,
+		body {
+			min-width:1200px;
+			}
+
+	/*  ************************* HEADER *************************/
+		
+		#topnav > li > a { padding: 0 35px; }
+
+		#photoBanner #photoBanner_inner .breadcrumb li:first-child {  margin-left: 50px; }
+		
+		#sliderWrap .metaslider .caption-wrap { margin-left: 530px; }
+	/*  ****************************** HOME CONTENT *****************/
+		
+		.metaslider {
+			max-width: none !important;			
+		}
+			
+			#sliderWrap .metaslider .caption-wrap,
+			#sliderWrap .flex-control-nav { margin-left: -578px; }
+
+		.list_carousel li { width: 277px; }
+
+		.caroNav a.prev {
+		  bottom: auto;
+		  left: -60px;
+		  margin-left: 10px;
+		  margin-top: -20px;
+		  top: 50%;
+		}
+		.caroNav a.next {
+		  bottom: auto;
+		  left: auto;
+		  margin-left: 10px;
+		  margin-top: -20px;
+		  right: -60px;
+		  top: 50%;
+		}	
+
+		/*  ****************************** END OF HOME CONTENT *****************/
+
+
+		/* Testimonials */
+		.testimonials, .testimonials div.testi_item {
+			width: 770px !important;
+		}
+
+
+	/*  ****************************** SUBPAGE CONTENT ************************/
+		
+		#sidebar #searchform input[type="text"] { width: 87%; }		
+
+		#breadcrumbs .breadcrumb { padding: 17px 0 17px 17px; }	
+
+		.staffBox {
+		  margin: 0 0 30px 30px;
+		  width: 388px;
+		}
+			.staffBox a { padding-left: 78px; }
+
+		/*  ************************* blog pages style ******************/
+
+		#commentform textarea {
+		  width: 719px;
+		}
+		
+		/*  **************************************************/
+			
+		.wrap_cf .wpcf7-form input[type="text"],
+		.wrap_cf .wpcf7-form input[type="email"],
+		.wrap_cf .wpcf7-form textarea {
+		  margin-left: 0;
+		}	
+		
+
+		#searchform input[type="text"] { width: 83%; }
+
+		.sidebar #searchform input[type="text"] { width: 85%; }
+		.single-post #commentform textarea { width: 93%; }
+		
+
+	/*  **************************************************/	
+
+		#footerBottom #menu-footer-menu li a {
+		  padding: 0 28px;
+		}
+
+}
+
+
+@media screen and (min-width: 1600px) {  
+	#sliderWrap .metaslider .slides img {
+	  height: auto;
+	  min-height: 900px;
+	  width: 100%;
+	  max-width: none;
+	  margin: 0 auto !important;
+	}
+	
+	#sliderWrap { overflow: hidden; }
+
+	.metaslider .flexslider .slides li {
+	  height: auto;
+	  max-height: 900px !important;
+	}
+
+	#photoBanner {
+  		-webkit-background-size: 100% auto !important;
+  		 background-size: 100% auto !important; 
+	}
+
+}
+
+
+	/*  ****** END OF FILE *****/
