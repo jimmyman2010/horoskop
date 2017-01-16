@@ -28,7 +28,7 @@
 						'posts_per_archive_page' => 1,
 						'tax_query' => array(
 							array(
-								'taxonomy' => 'horoskopy_a_vestby',
+								'taxonomy' => 'horoscope_category',
 								'field' => 'slug',
 								'terms' => $slug
 							)

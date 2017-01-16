@@ -137,11 +137,14 @@ function my_post_type_horoscope () {
 	)
 					) 
 				);
-	register_taxonomy('horoskopy_a_vestby', 'horoscope', array(
+	register_taxonomy('horoscope_category', 'horoscope', array(
 		'hierarchical' => true,
 		'label' => 'Zverokruh',
 		'singular_name' => 'Category',
-		"rewrite" => true,
+		"rewrite" => array(
+			'slug' => 'horoskopy-a-vestenie',
+			'with_front' => true,
+		),
 		"query_var" => true
 	));
 }

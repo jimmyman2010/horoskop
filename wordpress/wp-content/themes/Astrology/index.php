@@ -35,7 +35,7 @@
 					    		<?php get_search_form(); /* outputs the default Wordpress search form */ ?>
 					  		</div><!--no-results-->
 		
-					 <? endif; ?>
+					 <?php endif; ?>
   
 
 					<?php get_template_part('includes/post-formats/post-nav'); ?>

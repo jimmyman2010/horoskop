@@ -307,7 +307,7 @@ if ($custbodyClass) { $cclass = $custbodyClass; }  ?>
 				<div class="wrapH2">
 					<?php if (is_post_type_archive('horoscope') ) { ?>
 						<h2 class="header_page_title">Horoskopy</h2>
-					<?php } else if (is_tax('horoskopy_a_vestby')) {
+					<?php } else if (is_tax('horoscope_category')) {
 						global $wp_query;
 						$term = $wp_query->get_queried_object();
 						$title = $term->name;
