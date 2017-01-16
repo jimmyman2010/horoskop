@@ -1007,9 +1007,9 @@ function shortcode_catBox($atts, $content = null) {
 	global $post;
 
    	$out = '<ul class="taxonomy_box">';
-		foreach (get_terms('horoscope_category') as $cat) :
+		foreach (get_terms('horoskopy_a_vestby') as $cat) :
 		$out .= '<li>';
-			$out .= '<a class="rollover" href="'.get_term_link($cat->slug, 'horoscope_category').'">';
+			$out .= '<a class="rollover" href="'.get_term_link($cat->slug, 'horoskopy_a_vestby').'">';
 
 				$out .= '<div class="cube">';
 					$out .= '<div class="front">';
